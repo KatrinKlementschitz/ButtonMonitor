@@ -1,0 +1,11 @@
+#include "buttonmonitor.h"
+#include <QApplication>
+
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    ButtonMonitor w;
+    w.show();
+
+    return a.exec();
+}
